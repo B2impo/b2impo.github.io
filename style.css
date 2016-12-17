@@ -50,93 +50,92 @@ body{
     color: #4d4d4d;
     font-size: 14px;
 }
+a{
+text-decoration: none;
+}
 .wrapper{
-max-width: 1200px;
 margin: 0 auto;
-display: flex;
+max-width: 1200px;
 }
-header .wrapper{
+.row__header{
 display: flex;
+flex-flow: row wrap;
 align-items: center;
-padding: 55px 0;
+padding: 50px 0;
 }
-.logo{
+h1{
 font-size: 40px;
-    margin-right: auto;
+margin-right: auto;
 }
 .nav{
 display: flex;
 flex-flow: row wrap;
 }
-.nav a{
-display: block;
-text-decoration: none;
-color: #4d4d4d;
-margin-left: 55px;
+.nav li{
+    margin-left: 55px;
 }
-.nav a:hover{
+.nav a{
+color: #4d4d4d;
+}
+nav a:hover{
 border-bottom: 1px solid #4d4d4d;
 }
 .billboard{
-left: 0;
 background-image: url(img/head.jpg);
-background-repeat: no-repeat;
 height: 652px;
+-webkit-background-size: cover;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center center;
 max-width: 100%;
 display: flex;
 }
+
 .billboard .wrapper{
-display: flex;
+ display: flex;
 flex-flow: column wrap;
 justify-content: center;
+text-align: center;
+}
+.row__billboard{
+display: flex;
+flex-flow: column wrap;
 align-items: center;
+justify-content: center;
+text-align: center;
 }
 .billboard h2{
-font-family: 'Space Mono', monospace;
 font-size: 50px;
-padding-bottom: 30px;
 }
 .billboard p{
 font-size: 16px;
-padding-bottom: 40px;
+padding: 40px 0;
 }
-.button{
-text-decoration: none;
+.billboard a{
 display: inline-block;
-padding: 15px 75px;
-color: #fff;
+border-radius: 50px;
 background-color: #4d4d4d;
-border-radius: 30px;
+color: white;
 text-transform: uppercase;
+padding: 15px 75px;
 font-weight: bold;
-transition: .5s;
 }
-.button:hover{
-background-color: #727272;
+.row__services{
+display: flex;
+flex-flow: row wrap;
+height: 320px;
+align-items: flex-end;
+justify-content: space-around
 }
-.services .wrapper{
-height: 420px;
-align-items: center;
+.column__services{
+width: 335px;
+text-align: center;
 padding: 5px;
-justify-content: space-between;
-border-bottom: 1px solid #e7e7e7;
 }
-.services img{
-display: block;
-margin: auto;
-}
-
-.services h2{
+.column__services h2{
 font-size: 22px;
 font-weight: bold;
-text-align: center;
-padding: 40px 0;
 text-transform: uppercase;
-}
-.services p{
-color: #727272;
-}
-.shape1, .shape2, .shape3{
-max-width: 330px;
-text-align: center;
+padding: 40px 0;
 }
