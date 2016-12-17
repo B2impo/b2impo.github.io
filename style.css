@@ -124,18 +124,40 @@ font-weight: bold;
 .row__services{
 display: flex;
 flex-flow: row wrap;
-height: 320px;
 align-items: flex-end;
-justify-content: space-around
+justify-content: space-around;
 }
 .column__services{
 width: 335px;
 text-align: center;
 padding: 5px;
+padding-top: 100px;
 }
 .column__services h2{
 font-size: 22px;
 font-weight: bold;
 text-transform: uppercase;
 padding: 40px 0;
+}
+.line{
+margin-top: 100px;
+border-bottom: 1px solid #e7e7e7;
+
+}
+.video h2{
+font-size: 30px;
+font-weight: bold;
+text-transform: uppercase;
+padding: 40px 0;
+}
+.column__video{
+margin-top: 100px;
+display: flex;
+flex-flow: column wrap;
+text-align: center;
+align-items: center;
+}
+.video p{
+max-width: 490px;
+padding-bottom: 80px;
 }
