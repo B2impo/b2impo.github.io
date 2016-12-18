@@ -120,6 +120,11 @@ color: white;
 text-transform: uppercase;
 padding: 15px 75px;
 font-weight: bold;
+opacity: 0.8;
+transition: .5s;
+}
+.billboard a:hover{
+opacity: 1;
 }
 .row__services{
 display: flex;
@@ -173,6 +178,9 @@ display: flex;
 justify-content: space-around;
 flex-flow: row wrap;
 }
+.row__work:last-child{
+padding-bottom: 100px;
+}
 .row__work img{
 flex-basis: 260px;
 }
@@ -207,4 +215,65 @@ transition: .5s;
 }
 .img:hover .after{
 opacity: 1;
+}
+.row__sub{
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+}
+.sub{
+background-color: #f5f5f5;
+border-top: 1px solid #e7e7e7;
+border-bottom: 1px solid #e7e7e7;
+padding: 100px;
+text-align: center;
+}
+.sub h2{
+font-size: 30px;
+font-weight: bold;
+text-transform: uppercase;
+}
+
+.sub a{
+font-size: 16px;
+color: #4d4d4d;
+text-transform: uppercase;
+font-weight: bold;
+border: 2px solid #4d4d4d;
+padding: 20px 40px;
+border-radius: 50px;
+transition: .5s;
+}
+.sub p{
+padding-bottom: 50px;
+padding-top: 35px;
+}
+.sub a:hover{
+color: #1d1d1d;
+}
+.row__soc{
+display: flex;
+flex-flow: row wrap;
+justify-content: center;
+padding-bottom: 100px;
+padding-top: 100px;
+font-size: 25px;
+}
+i{
+margin: 10px 60px;
+font-weight: bold;
+padding: 25px;
+border: 2px solid #4d4d4d;
+font-size: 90px;
+transition: .5s;
+}
+i:hover{
+color: white;
+background-color: #55acee;
+border: 2px solid #55acee;
+}
+footer{
+background-color: #3b3b3b;
+height: 350px;
 }
