@@ -172,11 +172,6 @@ text-transform: uppercase;
 padding-top: 100px;
 padding-bottom: 80px;
 }
-.img{
-opacity: 0;
-width: 0;
-height: 0;
-}
 .row__work{
 display: flex;
 justify-content: space-around;
@@ -206,7 +201,7 @@ position: relative;
 .work .after{
 display: inline-block;
 position: absolute;
-bottom: 5px;
+bottom: -5px;
 left: 5px;
 background-color: #575757;
 text-align: center;
